@@ -72,6 +72,7 @@ public class Main
 			//cellList.get(i).sPrecursorDensity.addValue(String.valueOf(time)+"	"+String.valueOf(cellList.get(i).precursorDensity));
 		}
 		savingTime =time+0.001;
+		System.out.println(time);
 		}
 		
 	}while (Math.abs((precursor-precursorOld)/precursorOld) > 1E-17 || time < 10000*timeStep);
